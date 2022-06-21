@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-color: #303030;
+}
+.wrapper{
+    margin: 0px auto;
+    background-color: lightblue;
+    max-width: 700px;
+    border-radius: 20px;
+}
+
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1543962226-818f4301073f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1907&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 350px;
+    margin: 10px auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.hero > h1 {
+    background-color: #06BEE1;
+    width: 230px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #FDFFFC;
+    margin: 10px 10px;
+}
+.hero > h3 {
+    background-color: #1768AC;
+    width: 400px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #FDFFFC;
+    margin: 10px 10px;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-img {
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.card {
+    text-align: center;
+    max-width: 200px;
+}
+
+.guide-card {
+    background-color: #1768AC;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+    padding: 20px;
+    width: 660px;
+    border-radius: 0px 0px 20px 20px;
+    color: #FDFFFC;
+}
+.guide-card-img {
+    width: 200px;
+    aspect-ratio: 1 / 1;
+    margin: 0px;
+    
+}
